@@ -65,5 +65,16 @@ public class L11LogicalOperatorsIfAndSwitch {
         System.out.println("Years since life scout: " + yearsSinceLifeScout);
         System.out.println(" ");
         System.out.println("Status, are you a turkey?: " + isTurkey);
+
+        switch(yearsSinceLifeScout) {
+            case 0: System.out.println("Congrats! You're speeding through your scout ranks!!"); break;
+            case 1: System.out.println("You're staying really on top of your rank advancement!"); break;
+            case 2: System.out.println("Keep going! You're so close to Eagle!"); break;
+            case 3: System.out.println("Aw no! You're in turkey territory now. You don't have much further until your Eagle though!"); break;
+            case 4: System.out.println("Heyyy c'mon, you're running out of time, I BELIEVE in you!!"); break;
+            case 5: System.out.println("I hope you have enough time to get your Eagle still"); break;
+            case 6: System.out.println("Probably wont get your Eagle Scout at this point, but I'm still proud of you for getting your Life rank!");
+        }
+
     }
 }
